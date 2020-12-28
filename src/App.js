@@ -13,6 +13,7 @@ import MD5 from "./Components/MD5";
 import SecureHashAlgorithm from "./Components/SecureHashAlgorithm";
 import SHA1 from "./Components/SHA1";
 import DES from "./Components/DES";
+import Bibliografie from "./Components/Bibliografie";
 
 class App extends React.Component{
 
@@ -52,6 +53,9 @@ class App extends React.Component{
       </Route>
       <Route exact path="/des">
       <DES/>
+      </Route>
+      <Route exact path='/bibliografie'>
+        <Bibliografie/>
       </Route>
       </Switch>
       </Router>

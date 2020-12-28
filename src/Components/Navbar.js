@@ -32,6 +32,7 @@ class Navbar extends React.Component{
       <Link to="/sha"><li>SHA</li></Link>
       <Link to="/sha1"><li>SHA1</li></Link>
       <Link to="/des"><li>DES</li></Link>
+      <Link to="/bibliografie"><li>Bibliografie</li></Link>
     </ul>
   </div>
    <p className="navbar-title">Criptografie</p>
