@@ -1,0 +1,8 @@
+.decimal-list{
+  position: relative;
+  left:30px;
+  list-style-type: decimal;
+  color:#fff;
+  font-size: 1.1rem;
+    font-family: 'Cairo', sans-serif;
+}

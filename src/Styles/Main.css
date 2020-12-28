@@ -1,0 +1,53 @@
+.home-main{
+  width: 100%;
+  min-height: 100vh;
+  margin:0;
+  padding:0;
+}
+.article-title{
+  padding-top:30px;
+  font-size: 2rem;
+  width: 100%;
+  text-align: left;
+  color:#FF8B49;
+  font-family: 'Cairo', sans-serif;
+}
+section{
+ width: 80%;
+ margin: auto;
+}
+
+.content{
+  color:#fff;
+  font-size: 1.2rem;
+  font-family: 'BioRhyme', serif;
+}
+
+.crypto-img{
+   margin-top:60px;
+   width: 90%;
+}
+.up-btn{
+ float: right;
+ position: fixed;
+ bottom: 10px;
+ right: 30px;
+}
+
+.content{
+  margin-bottom: 0px;
+}
+
+ul{
+  list-style-type: none;
+
+}
+.list-item{
+  color:#fff;
+  font-size: 1.1rem;
+  padding:10px;
+}
+
+.list-item::before{
+  content: "» ";
+}
