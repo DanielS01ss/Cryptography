@@ -11,12 +11,20 @@ class Bibliografie extends React.Component{
     this.state = {
     is_visible: false
   };
+  this.state={
+    result:""
   }
+
+  }
+
 
   componentDidMount() {
     window.scrollTo({
-      top: 0
+      top: 0,
+
     });
+    let navbar = document.querySelector("#checkbox");
+    navbar.checked = !navbar.checked;
     var scrollComponent = this;
     document.addEventListener("scroll", function(e) {
       scrollComponent.toggleVisibility();

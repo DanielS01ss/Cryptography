@@ -53,7 +53,6 @@ class MD5 extends React.Component{
      setHash(){
       let text = document.querySelector(".encrypt-field").value;
       ///aicea facem requestul
-      console.log(text)
       let url =`https://api.hashify.net/hash/md5/hex?value=${text}`;
       fetch(url)
       .then(obj=>{return obj.json()})

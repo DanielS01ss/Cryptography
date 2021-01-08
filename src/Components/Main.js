@@ -54,7 +54,7 @@ class Main extends React.Component{
           <p className="content">Ambele procese utilizează (sub o formă sau alta) o procedură de criptare, numită algoritm de criptare.</p>
           <p className="content">Majoritatea acestor algoritmi sunt de domeniul public, adică sunt cunoscuţi, caracterul secret (privat) al comunicării fiind asigurat de utilizarea unei chei de criptare/decriptare, cheie cunoscută (în cazul ideal) doar de către entităţile care sunt îndreptăţite să le cunoască, la ambele capete ale canalului de comunicare.</p>
           <p className="content">Criptologia este o ramură a matematicii care descrie fundamentele matematice ale metodelor criptografice precum și ale principiilor de autentificare şi restricţionare a accesului la informaţii</p>
-          <p className="content">Termenul de criptologie cuprinde atât criptografia (criptarea informaţiior) cât şi criptanaliza (analiza criptografică), adică arta de a sparge sistemele de criptar</p>
+          <p className="content">Termenul de criptologie cuprinde atât criptografia (criptarea informaţiior) cât şi criptanaliza (analiza criptografică), adică arta de a sparge sistemele de criptare</p>
         </section>
         <div className="scroll-to-top">
       {is_visible && (
@@ -147,13 +147,13 @@ class Main extends React.Component{
       <p className="content">Funcțiile hash au ca intrare un mesaj (fișier, șir) de lungime arbitrară și generează o sumă/șir de control (numit și hash sau digest) de lungime fixă. Lungimea acestui șir de control depinde de funcția utilizată, dar în general este între 128 și 512 biți.</p>
       <p className="content">Fucțiile hash sunt utilizate în special în trei domenii:</p>
       <ul>
-      <li className="list-item">Garantarea integrității uni mesaj (sau a unui fișier descărcat) prin atașasrea la mesaj a hash-ului generat. Destinatarul poate recalcula hash-ul mesajului/fișierului primit și acesta poate fi comparat cuhash-ul atașat de către expeditor. Dacă acestea coincid, avem garanția (cu un foarte înalt grad de încredere) că mesajul/fișierul nu a fost alterat.</li>
+      <li className="list-item">Garantarea integrității uni mesaj (sau a unui fișier descărcat) prin atașasrea la mesaj a hash-ului generat. Destinatarul poate recalcula hash-ul mesajului/fișierului primit și acesta poate fi comparat cu hash-ul atașat de către expeditor. Dacă acestea coincid, avem garanția (cu un foarte înalt grad de încredere) că mesajul/fișierul nu a fost alterat.</li>
       <li className="list-item">Sunt parte a procesului de creare a semnăturii digitale</li>
       <li className="list-item">stocarea parolelor – parolele nu sunt aproape niciodată (sau nu ar trebui să fie) stocate în forma lor originală. Ceea ce este stocat, în general, este un hash al parolei. Atunci când un utilizator introduce o parolă, este calculat hash-ul acesteia, care este apoi comparat cu hash-ul stocat. Dacă ele coincid,parola este considerată ca fiind cea corectă.</li>
       </ul>
       <p className="content">Cele mai utilizate funcții hash sunt cele din familia MD și SHA - și anume MD5 și SHA-1, cele mai noi fiind SHA-2 și SHA-3. SHA înseamnă Secure Hash Algoritm. O altă funcție hash de interes este RipeMD -</p>
     </section>
-    
+
       </div>
     )
   }
